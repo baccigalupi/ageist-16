@@ -1,7 +1,9 @@
 puts "Whats your age?"
 
+# specification was around generating a random number, not creating a command line app
 age = gets.chomp.to_i
 
+# logic looks good for determining age classification
  if age <= 1
   puts "Age Range: baby"
 
